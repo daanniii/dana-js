@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관심있는 동물은?</title>
+</head>
+<body>
+  <script>
+    var session = prompt("관심있는 동물을 선택해주세요. 1-강아지, 2-고양이, 3-토끼","숫자만 입력해주세요");
+
+    switch(session) {
+      case "1": document.write("<p>강아지는 귀여워</p>")
+        break;
+      case "2": document.write("<p>고양이는 귀엽죠</p>")
+        break;
+      case "3": document.write("<p>토끼는 귀엽다아</p>")
+        break;
+      default: alert("다시 입력해주세요");
+    }
+  </script>
+</body>
+</html>
